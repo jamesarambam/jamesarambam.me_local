@@ -1,0 +1,78 @@
+#-------------------------------
+# Site Settings
+
+title: James Arambam
+# logo: '/images/iitd.png'
+# description: 
+
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Publications'
+      url: '/publications'
+    - title: 'Projects'
+      url: '/projects/'
+    - title: 'Courses'
+      url: '/courses'
+    # - title: 'Team'
+    #   url: '/team'
+    # - title: 'Resume'
+    #   url: '/resume'
+    - title: 'Usefull Links'
+      url: '/links/'
+    - title: 'Photography'
+      submenu:
+      - url: '/classics'
+        title: 'Random'
+      - url: '/travels'
+        title: 'Travels'
+
+
+    # - title: 'Blogs'
+    #   url: '/blogs'
+    # - title: 'Pages'
+    #   submenu:
+    #   - url: '/about'
+    #     title: 'About'
+    #   - url: '/elements'
+    #     title: 'Elements'
+
+# Call to action button
+cta__button__text: ""
+# Get in touch
+
+# Add global cover image (This field adds a background to the top and bottom of the site.)
+cover__image: '/images/37.jpg'
+
+
+#-------------------------------
+# Author Settings
+author:
+  name: James Arambam
+  title: Welcome to my webpage!
+  # bio: I am currently a Research Fellow at School of Computer Science and Engineering, Nanyang Technological University (NTU) Singapore, working with  <a href="https://personal.ntu.edu.sg/arvinde/">Prof. Arvind Easwaran</a> on AI Singapore project. Earlier, I was at Department of Computer Science, National University of Singapore (NUS) working as a Research Fellow with  <a href="https://haroldsoh.com/">Prof. Harold Soh</a>.  <br>I completed my PhD in Computer Science in August 2021 from <a href="https://scis.smu.edu.sg/">School of Computing and Information Systems</a>, Singapore Management University (SMU) advised by <a href="http://www.mysmu.edu/faculty/akshatkumar/">Prof. Akshat Kumar</a> and <a href="http://www.mysmu.edu/faculty/hclau/">Prof. Hoong Chuin Lau.</a> I did my B.Tech in ECE from NIT Silchar, Assam. <br><br><b><span class="mytext">Contact Address:</span></b><br>Email - arambam.singh@ntu.edu.sg<br>College of Computing and Data Science (CCDS)<br>50 Nanyang Ave, Block N 4, Singapore 639798.  
+  bio: I am currently an Assistant Professor at Yardi School of Artificial Intelligence, Indian Institute of Technology Delhi.<br>I did my post-doctoral research fellowships at School of Computer Science & Engineering, Nanyang Technological University (NTU) Singapore with Prof. Arvind Easwaran and at Department of Computer Science, National University of Singapore (NUS) with Prof. Harold Soh.<br>I completed my PhD in Computer Science in August 2021 from <a href="https://scis.smu.edu.sg/">School of Computing and Information Systems</a>, Singapore Management University (SMU) advised by Prof. <a href="http://www.mysmu.edu/faculty/akshatkumar/">Akshat Kumar</a> and Prof. <a href="http://www.mysmu.edu/faculty/hclau/">Hoong Chuin Lau.</a> I did my B.Tech in ECE from NIT Silchar, Assam. <a href="/resume"><b><span class="mytext">[Full Bio]</span></b></a> <br><br><b><span class="mytext">Contact Address:</span></b><br>Email - [first name] dot [last name] at abc.ac.in<br>512-D, Academic Complex East Building<br>Indian Institute of Technology Delhi<br> Hauz Khas, New Delhi, India. 
+  
+  image: '/images/james.png'
+  # avatar: '/images/avatar.jpg'
+  # button__text: See my works
+
+#-------------------------------
+# Google Analytics
+# google-analytics: # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Footer Settings
+# Social Links
+# Example of adding a new link to the footer - {icon: "ion-logo-facebook", link: "https://facebook.com"}
+# Other icons can be found at https://ionicons.com/v4/
+social:
+# - {icon: "ion-logo-twitter", link: "https://twitter.com"}
+- {icon: "ion-logo-googlescholar", link: "https://github.com"}
+- {icon: "ion-logo-github", link: "https://github.com"}
+#- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+# - {icon: "ion-logo-codepen", link: "https://codepen.io"}
+# - {icon: "ion-logo-vimeo", link: "https://vimeo.com"}
+# - {icon: "ion-logo-youtube", link: "https://youtube.com"}

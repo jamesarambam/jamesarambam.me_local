@@ -1,0 +1,48 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <span style="color:black">{{ page.title }}</span>
+
+  <!-- <div class="page-head">            
+    <h3 class="page-title">
+      <span class="mytext">{{ page.title }}</span>
+    </h3>    
+    {% if page.subtitle %}
+      <p class="project-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
+  </div> -->
+<br>
+<br>
+  {% if page.image %}
+  <div class="row">    
+    <div class="col col-12">      
+      <div class="page-image">        
+        <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">        
+      </div>    
+    </div>
+  </div>
+  {% endif %}
+
+  <!-- <div class="project-content">
+    {{ content }}
+  </div> -->
+  
+  {% if page.previous.url %}
+  <div class="project__navigation">
+    <a class="project__prev" href="{{page.previous.url}}">
+      <div class="project__box">
+        <span class="project__nav__info">Next image</span>
+        <!-- <h2 class="project__nav__title">{{page.previous.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i></h2> -->
+
+        {{page.previous.title}}<i class="ion ion-md-arrow-round-forward arrow-right"></i>
+
+      </div>
+    </a>
+  </div>
+  {% endif %}
+
+</div>
+

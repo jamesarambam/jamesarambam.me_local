@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Random Clicks"
+description: 
+---
+
+
+<div class="container">
+  
+   <div class="page-head">
+    <h1 class="page-title">{% if page.title %}{{ page.title }}{% else %}{{ site.data.settings.classics__settings.classics__title }}{% endif %}</h1>
+    {% if page.description %}
+      <p class="page-description">{{ page.description }}</p>
+    {% else site.data.settings.classics__settings.classics__description %}
+      <p class="page-description">{{ site.data.settings.classics__settings.classics__description }}</p>
+    {% endif %}    
+  </div> 
+
+</div>
+
+
+
+<br><br><br>
+
+<div class="container animate">
+  <div class="row">
+    {% for classics in site.classics reversed %}
+      <article class="classics col col-4 col-d-6 col-t-12">
+        <div class="classics__content">
+          <a href="{{ classics.url }}" class="classics__image">
+
+
+            <img class="lazy" data-src="{{ classics.image }}" alt="{{ classics.title }}">
+
+
+          </a>
+          <div class="classics__info">
+            <div class="classics__info-wrap">
+              <h4 class="classics__title">{{ classics.title }}</h4>
+            </div>
+            <div class="classics__info-wrap">
+              {% if classics.subtitle %}
+                <div class="classics__subtitle">{{ classics.subtitle }} –</div>
+              {% endif %}
+            </div>
+          </div>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
