@@ -1,6 +1,6 @@
 ---
 layout: default_home
-title: Courses
+title: Teaching
 ---
 
 

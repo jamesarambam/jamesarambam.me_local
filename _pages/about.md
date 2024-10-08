@@ -38,7 +38,7 @@ permalink: /
 ## <span class="mytext">Research Interests</span>
 My research interests are primarily in Artificial Intelligence/Machine Learning. Here are some of the topics I am currently exploring.
 - Reinforcement Learning (RL)
-- Multiagent Reinforcemet Learning (MARL)
+- Multi-Agent Reinforcemet Learning (MARL)
 - Large-scale Multiagent Systems
 - AI for Video Games
 - Human-AI Interaction
