@@ -16,7 +16,9 @@ title: Special Topics in Reinforcement Learning
  -->
 **Course Overview:**
 
-In this course, we will delve into the intricacies of reinforcement learning (RL) by exploring popular and advanced topics in the field. RL, a sprawling research area, holds promise for applications in diverse real-world domains such as transportation, traffic control, finance, supply-chain logistics, games etc. However, the challenges we confront in these domains often do not align with ideal conditions, necessitating a departure from simply applying our preferred off-the-shelf RL algorithms. For instance, we may encounter scenarios with multiple learning agents in the environment, sparse reward structures, and when multiple dynamic goals are present that change every episode. We will also study about how can we incorporate constraints in policy optimization, and so on.
+In this course, we will delve into the intricacies of reinforcement learning (RL) by exploring the advanced topics in the field. RL, a sprawling research area, holds promise for applications in diverse real-world domains such as smart transportation, traffic control, finance, supply-chain logistics, games etc. However, the challenges we confront in these domains often do not align with ideal conditions, necessitating a departure from simply applying our preferred off-the-shelf RL algorithms. For instance, we may encounter scenarios with multiple learning agents in the environment, sparse reward structures, multiple dynamic goals, incorporating constraints in the policy optimization etc. 
+
+<!-- We will also study one of the important topic in RL called *constrained RL* --- how can we incorporate constraints in policy optimization so that the trained RL policy not only maximizes the long term reward but also satisfy necessary constraints. -->
 
 
 
@@ -34,7 +36,8 @@ In this course, we will delve into the intricacies of reinforcement learning (RL
 
 
 **Logistics:**
-- Courese reference materials: Since most of the topics are currently active areas of research. We will use influential and highly cited research papers as reference for the course. I have listed the some of the reference textbooks & research papers below.
+
+Since most of the topics are currently active areas of research. We will use influential and highly cited research papers as reference for the course. I have listed the some of the reference textbooks & research papers below.
 - Location: xxx
 - Office hours: xxx
 

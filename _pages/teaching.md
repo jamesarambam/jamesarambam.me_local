@@ -13,9 +13,9 @@ title: Teaching
 
 ## <span class="mytext">Courses:</span>
 
-* <b><a href="/strl"><font size="5">AI-XXX: Special Topics in Reinforcement Learning - Spring 2025</font></a></b>
+<!-- * <b><a href="/strl"><font size="5">AI-XXX: Special Topics in Reinforcement Learning - Spring 2025</font></a></b> -->
 
-* <b><a href="/dl"><font size="5">AI-XXX: Deep Learning - Spring 2025</font></a></b>
+* <b><a href="/dl"><font size="5">AIL721: Deep Learning - Spring 2025</font></a></b>
 
 
 

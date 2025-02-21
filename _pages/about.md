@@ -83,8 +83,13 @@ My research interests are primarily in Artificial Intelligence/Machine Learning.
 <br>
 
 <center>
+<a href="https://clustrmaps.com/site/1b26z" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=5YZOZx47lnHz1mDsxEHN0fpbDYYrZX26-uUFWXtHqTQ&cl=ffffff"></a>
+</center>
+
+<!-- <center>
 <script type="text/javascript" src="//rf.revolvermaps.com/0/0/4.js?i=512odiv1oxy&amp;m=0&amp;h=200&amp;c=ff0000&amp;r=40" async="async"></script>
 </center>
+ -->
 
 </section>
 
